@@ -34,4 +34,4 @@ Use the `resource` generator, **not** the `scaffold` generator.
 1. Use strong parameters in your POST/PATCH controller actions.
 1. Set the root route to the song index.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/crud-with-validations-lab' title='CRUD With Validations Lab'>CRUD With Validations Lab</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG CRUD With Validations Lab</p>
