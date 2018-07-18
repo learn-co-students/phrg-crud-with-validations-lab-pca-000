@@ -6,8 +6,7 @@ class Song < ActiveRecord::Base
   validates :title, uniqueness: true
 
   def song_release
-    if released && (!release_year || release_year >= Date.today.year)
-      errors.add(:base, "Not valid")
-    end
+    return unless released && (!release_year || release_year >= Date.today.year)
+    errors.add(:base, "Not valid")
   end
 end

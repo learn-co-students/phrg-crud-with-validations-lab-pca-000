@@ -14,7 +14,9 @@ class SongsController < ApplicationController
   end
 
   def create
-    @song = Song.new(post_params(:title, :artist_name, :genre, :released, :release_year))
+    @song = Song.new(
+      post_params(:title, :artist_name, :genre, :released, :release_year)
+    )
     if @song.save
       redirect_to song_path(@song)
     else
