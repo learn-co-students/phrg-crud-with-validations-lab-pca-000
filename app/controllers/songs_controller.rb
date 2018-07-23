@@ -23,7 +23,7 @@ class SongsController < ApplicationController
     if @song.save
       redirect_to song_path(@song)
     else
-      render 'new'
+      render "new"
     end
   end
 
@@ -32,7 +32,7 @@ class SongsController < ApplicationController
     if @song.update(song_params)
       redirect_to song_path(@song)
     else
-      render 'edit'
+      render "edit"
     end
   end
 
@@ -48,6 +48,12 @@ private
   end
 
   def song_params
-    params.require(:song).permit(:title, :release_year, :released, :genre, :artist_name)
+    params.require(:song).permit(
+      :title,
+      :release_year,
+      :released,
+      :genre,
+      :artist_name
+    )
   end
 end
