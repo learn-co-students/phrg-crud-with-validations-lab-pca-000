@@ -34,4 +34,8 @@ Use the `resource` generator, **not** the `scaffold` generator.
 1. Use strong parameters in your POST/PATCH controller actions.
 1. Set the root route to the song index.
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-crud-with-validations-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-crud-with-validations-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG CRUD With Validations Lab</p>
