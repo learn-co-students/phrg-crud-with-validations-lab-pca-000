@@ -3,6 +3,8 @@
 source "https://rubygems.org"
 
 gem "jbuilder", "~> 2.0"
+gem "jquery"
+gem "jquery-rails"
 gem "rails", "~> 4.2"
 gem "rspec-rails"
 gem "sass-rails", "~> 5.0"
